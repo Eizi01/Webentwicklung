@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<style>
+.flexbox_header{
+  background-color: rgb(33,60,91);
+  height: 5rem;
+}
+
+
+.titel_schrift{
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.titel_schrift h1{
+ font-weight: 400;
+}
+
+.span_titel{
+  font-weight: 100;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav ul{
+  align-self: center;
+  display: inline-block ;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding:0px 15px 0 15px;
+    display: block;
+    font-family: Roboto, Arial;
+}
+nav ul li a:hover{
+    text-decoration: underline
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(33,60,91);
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: rgb(63, 99, 139);
+    text-decoration: none;
+}
+
+
+.flexbox_header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+
+
+</style>
+
+
+
+<body>
+
+<div class="flexbox_header">
+  <div class="titel_schrift">
+    <h1> <span class="span_titel">TCBW</span> Türnich</h1>
+
+  </div>
+
+
+
+  <nav class="navbar">
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Club-Info &dtrif;</a>
+          <ul>
+              <li><a href="#">Preise</a></li>
+              <li><a href="#">Satzung</a></li>
+              <li><a href="#">Spielordnung</a></li>
+          </ul>
+          </li>
+          <li><a href="#">Training &dtrif;</a>
+              <ul>
+                  <li><a href="#">Jugendarbeit</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Mannschaft &dtrif;</a>
+          <ul>
+              <li><a href="#">Herren 30</a></li>
+              <li><a href="#">Herren 40</a></li>
+              <li><a href="#">Damen</a></li>
+
+          </ul>
+          </li>
+          <li><a href="#">TCT &dtrif;</a>
+              <ul>
+                  <li><a href="#">Ausschreibung</a></li>
+                  <li><a href="#">Anmeldung</a></li>
+              </ul>
+          
+          
+          </li>
+
+      </ul>
+  </nav>
+
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
